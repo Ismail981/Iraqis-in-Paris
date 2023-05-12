@@ -24,12 +24,13 @@
             <div class="loading-container">
                 <p>Just a sec...</p>
                 <img class="loader" src="assets/img/rubik.svg"/>
+                <img class="loader" src="assets/img/potato.jpg"/>
             </div>
         </div>
         <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
-            <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
             <div class="container">
                 <div class="navbar-header">
+                    
                     <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar bar1"></span>
@@ -38,6 +39,11 @@
                     </button>
                     <a class="navbar-brand">
                       Iraqis                    </a>
+                      <div class="loading-container">
+                        <div class="logo">
+                            <img class="loader" src="assets/img/potato-original.jpg"/>
+                        </div>
+                      </div>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right navbar-uppercase">
@@ -107,22 +113,23 @@
         
         
             
-          <div class="section section-header" id="header3">
-            <div id="video-container-3" class="pattern-image filter parallax filter-color-green" data-color="gold">
-                <video width="100%" class="bgvid" preload="auto" loop="loop" autoplay="false" muted="muted" volume="0"><source src="./assets/video/Paris_ The last drone aerials.mp4" type="video/mp4">Video not supported</video></div>
-                <div class="container">
-                    <div class="content">
-                        <p><span>by </span>Khalid ,Ismail and Abd-Allah</p>
-                        <h1>Iraqis</h1>
-                        <div class="separator-container">
-                            <div class="separator line-separator">✻</div>
+            <div class="section section-header" id="header3">
+                <div  id="video-container-3" style="display:flex ;justify-content: center; align-items: bottom;" class="pattern-image filter parallax filter-color-green" data-color="gold">
+                    <video  width="289%"  height="115%" class="bgvid" preload="auto" loop="loop" autoplay="false" muted="muted" volume="0"><source src="./assets/video/Paris_ The last drone aerials.mp4" type="video/mp4">Video not supported</video></div>
+                    <div class="container">
+                        <div style="margin-top: 10%;" class="content">
+                            <p><span>by </span>Khalid ,Ismail and Abd-Allah</p>
+                            <h1>Iraqis</h1>
+                            <div class="separator-container">
+                                <div class="separator line-separator">✻</div>
+                            </div>
+                            <h5>
+                                A taste of the Iraqi foods are now available in France
+                            </h5>
                         </div>
-                        <h5>
-                            A taste of the Iraqi foods are now available in France
-                        </h5>
-                    </div>
-                </div> 
-        
+                    </div> 
+            
+            </div>
         </div>
     
         <div id="who" class="section section-we-are-1">
@@ -145,7 +152,6 @@
             </div>
         </div>
     
-        <!-- Section "What We do" example 2: Big Title & 4 columns text -->
         <div id="whatwe" class="section section-we-do-1" id="workflow1">
             <div class="text-area">
                 <div class="container">
@@ -192,9 +198,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Section "What We do" example 2: Big Title & 4 columns text  -->
     
-        <!-- Section "Our Projects" example 3: 2 Columns Boxed -->
         <div id="dishe" class="section section-we-made-3 section-with-hover" id="projects1">
             <div class="text-area">
                 <div class="title">
@@ -260,9 +264,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Section "Our Projects" example 3: 2 Columns Boxed -->
     
-        <!-- Section "Clients" example 1: 4 Columns Logos -->
         <div id="clients" class="section section-clients-1" id="clients1">
             <div class="container">
                 <div class="text-area">
@@ -345,9 +347,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Section "Clients" example 2: 4 Columns Logos -->
     
-        <!-- Section "Team" example 3: 4 Profiles Style 1 -->
         <div id="team" class="section section-team-2" id="team2">
             <div class="container">
                 <div class="text-area">
@@ -408,12 +408,10 @@
                 </div>
             </div>
         </div>
-        <!-- End Section "Team" example 3: 4 Profiles Style 1 -->
     
-        <!-- Section "Numbers" example 4: Text & Image -->
         <div class="section section-numbers-3" id="numbers3">
-            <div class="full-image pattern-image">
-                <img alt="..." src="assets/img/rubik_background.jpg">
+            <div class="full-image ">
+                <img alt="..." src="assets/img/potato.jpg">
             </div>
             <div class="container">
                 <div class="text-area">
@@ -457,9 +455,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Section "Numbers" example 4: Text & Image -->
     
-        <!-- Section "Contact" example 3: Form Style 1 & Address -->
         <div id="numbers" class="section section-contact-1" id="contact1">
             <div class="container">
                 <div class="text-area">
@@ -510,7 +506,6 @@
                 </div>
             </div>
         </div>
-        <!-- End Section "Contact" example 3: Form Style 1 & Address -->
     
         <footer id="end" class="footer footer-color-black" data-color="black">
             <div class="container">
@@ -566,8 +561,6 @@
         
         
         
-        <!--  Here are the examples of the content for each project that is viewed inside of the page. You can create how many projects you want if you set the specific #id      
-        -->
          
         <div class="project-content" id="project_1">
           <div>
@@ -740,10 +733,6 @@
     <!--  js library for devices recognition -->
     <script type="text/javascript" src="assets/js/modernizr.js"></script>
 
-    <!--  script for google maps   -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-    <!--   file where we handle all the script from the Rubik page   -->
     <script type="text/javascript" src="assets/js/rubick.js"></script>
     
 </html>
